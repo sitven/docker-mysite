@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-top: 70px!important;
+}
+
+ul {
+    list-style-type: none!important; 
+}
+
+/*登录&注册*/
+ul.navbar-right {
+    margin-right: 0; 
+}
+
+/*返回顶部图标*/
+div.goup-container {
+    display: none;
+}
+
+/*返回顶部按钮*/
+div.goup-text {
+    display: none;
+}
+
+/*网页底部信息顶层标签*/
+div.page-bottom{
+    width:100%;
+    clear:both;
+    background: #e0eaea;
+    margin-top: 2.5em;
+    color: #777;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 16px;
+}
+
+/*网页底部信息分类标题*/
+h4.title{
+    color: #4AB84F;
+    font-weight: bold;
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 7px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    height: 30px;
+    text-align:left;
+}
+
+/*网页底部欢迎文案*/
+.page-bottom .copyright{
+    text-align: center;
+    padding: 0.5em 0;
+    margin-top: 1.5em;
+    background: #309ba0;
+    color: #e7e7e7;
+    margin-left: -15px;
+    margin-right: -15px;
+}

@@ -1,0 +1,20 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>我的网站|发生错误</title>
+{% block header_extends %}
+    <link rel="stylesheet" href="{% static 'no-source.css' %}">
+{% endblock %}
+</head>
+<body bgcolor="#d6eafd">
+   	<div class="head500"></div>
+   	<div class="txt500">
+        <div class="box" style="width:250px;height:60px;margin:10px auto 0 auto;">
+          <p style="color: #ce8483;">服务器错误！已发送邮件给管理员</p>
+          <p><a href="http://www.sitven.cn" style="color: #2B993D">返回网站首页 >> </a></p>
+        </div>
+    </div>
+</body>
+</html>

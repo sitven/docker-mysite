@@ -1,0 +1,14 @@
+div#register {
+    margin-top: 10em;
+    margin-bottom: 10em;
+}
+
+div#login {
+    margin-top: 15em;
+    margin-bottom: 10em;
+}
+
+div.row {
+    margin-right: 1px;
+    margin-left: 1px;
+}
