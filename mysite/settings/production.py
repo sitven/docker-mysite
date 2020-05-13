@@ -40,7 +40,7 @@ LOGGING = {
         'file': {
             'level': 'DEBUG',
             'class': 'logging.FileHandler',
-            'filename': '/opt/cloud/logs/mysite_debug.log',
+            'filename': '/opt/cloud/mysite_uwsgi/debug.log',
         },
         'mail_admins': {
             'level': 'ERROR',
