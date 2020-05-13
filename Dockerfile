@@ -7,3 +7,4 @@ ENV PYTHONUNBUFFERED=1
 COPY docker-mysite ${work_home}
 RUN  pip install -r requirements.txt -i ${pip_url} --trusted-host ${pip_host}
 WORKDIR ${work_home}
+CMD ['/bin/sh', 'run.sh']

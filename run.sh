@@ -1,0 +1,1 @@
+python /opt/cloud/myapp/manage.py runserver 0.0.0.0:8002
