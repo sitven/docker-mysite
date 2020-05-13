@@ -4,7 +4,7 @@ ARG pip_host=pypi.douban.com
 ARG work_home=/opt/cloud/myapp
 ENV PYTHONUNBUFFERED=1
 
-COPY . ${work_home}
+COPY . .
 RUN  pip install -r requirements.txt -i ${pip_url} --trusted-host ${pip_host}
 WORKDIR ${work_home}
 CMD ['/bin/sh', 'run.sh']
