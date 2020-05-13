@@ -4,8 +4,6 @@ ARG pip_host=pypi.douban.com
 ARG work_home=/opt/cloud/myapp
 ENV PYTHONUNBUFFERED=1
 
-RUN  mkdir -p ${work_home}
-WORKDIR ${work_home}
-COPY requirements.txt requirements.txt 
+COPY docker-mysite ${work_home}
 RUN  pip install -r requirements.txt -i ${pip_url} --trusted-host ${pip_host}
-COPY . .
+WORKDIR ${work_home}
