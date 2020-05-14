@@ -3,4 +3,3 @@ ENV   PYTHONUNBUFFERED=1
 COPY  requirements.txt /opt/cloud/myapp/requirements.txt
 WORKDIR /opt/cloud/myapp
 RUN   pip install -r requirements.txt -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
-CMD   ["/bin/sh", "uwsgi --ini /opt/cloud/mysite_uwsgi/mysite.ini"]
