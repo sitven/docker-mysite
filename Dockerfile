@@ -1,4 +1,4 @@
-FROM python:3.6.5:latest
+FROM python:3.6.5-slim-jessie
 ENV PYTHONUNBUFFERED=1
 COPY requirements.txt /opt/cloud/myapp/requirements.txt
 WORKDIR /opt/cloud/myapp
